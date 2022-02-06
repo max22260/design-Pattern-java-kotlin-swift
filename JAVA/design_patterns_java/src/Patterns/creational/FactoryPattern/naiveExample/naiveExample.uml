@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Patterns.creational.FactoryPattern.naiveExample</OriginalElement>
+  <nodes>
+    <node x="379.25" y="0.0">Patterns.creational.FactoryPattern.naiveExample.Shape</node>
+    <node x="0.0" y="122.0">Patterns.creational.FactoryPattern.naiveExample.Circle</node>
+    <node x="449.0" y="110.0">Patterns.creational.FactoryPattern.naiveExample.Shapes</node>
+    <node x="145.0" y="122.0">Patterns.creational.FactoryPattern.naiveExample.Square</node>
+    <node x="374.25" y="406.0">Patterns.creational.FactoryPattern.naiveExample.App</node>
+    <node x="290.0" y="122.0">Patterns.creational.FactoryPattern.naiveExample.Rectangle</node>
+    <node x="271.75" y="271.0">Patterns.creational.FactoryPattern.naiveExample.ShapeFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.App" target="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" relationship="CREATE">
+      <point x="-43.5" y="-41.5" />
+      <point x="417.75" y="380.0" />
+      <point x="378.75" y="380.0" />
+      <point x="0.0" y="41.5" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" target="Patterns.creational.FactoryPattern.naiveExample.Square" relationship="CREATE">
+      <point x="-53.5" y="-41.5" />
+      <point x="325.25" y="249.0" />
+      <point x="207.5" y="249.0" />
+      <point x="0.0" y="41.5" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.Circle" target="Patterns.creational.FactoryPattern.naiveExample.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-41.5" />
+      <point x="62.5" y="89.0" />
+      <point x="214.75" y="89.0" />
+      <point x="214.75" y="79.0" />
+      <point x="410.5" y="79.0" />
+      <point x="-31.25" y="29.0" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.Square" target="Patterns.creational.FactoryPattern.naiveExample.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-41.5" />
+      <point x="207.5" y="89.0" />
+      <point x="214.75" y="89.0" />
+      <point x="214.75" y="79.0" />
+      <point x="410.5" y="79.0" />
+      <point x="-31.25" y="29.0" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" target="Patterns.creational.FactoryPattern.naiveExample.Shapes" relationship="DEPENDENCY">
+      <point x="53.5" y="-41.5" />
+      <point x="432.25" y="249.0" />
+      <point x="501.5" y="249.0" />
+      <point x="501.5" y="239.0" />
+      <point x="550.0" y="239.0" />
+      <point x="0.0" y="53.5" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.App" target="Patterns.creational.FactoryPattern.naiveExample.Shape" relationship="DEPENDENCY">
+      <point x="43.5" y="-41.5" />
+      <point x="504.75" y="380.0" />
+      <point x="661.5" y="380.0" />
+      <point x="661.5" y="89.0" />
+      <point x="557.25" y="89.0" />
+      <point x="557.25" y="79.0" />
+      <point x="473.0" y="79.0" />
+      <point x="31.25" y="29.0" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" target="Patterns.creational.FactoryPattern.naiveExample.Rectangle" relationship="CREATE">
+      <point x="-53.5" y="-41.5" />
+      <point x="325.25" y="249.0" />
+      <point x="207.5" y="249.0" />
+      <point x="207.5" y="239.0" />
+      <point x="359.0" y="239.0" />
+      <point x="0.0" y="41.5" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" target="Patterns.creational.FactoryPattern.naiveExample.Shape" relationship="DEPENDENCY">
+      <point x="53.5" y="-41.5" />
+      <point x="432.25" y="249.0" />
+      <point x="501.5" y="249.0" />
+      <point x="501.5" y="239.0" />
+      <point x="438.5" y="239.0" />
+      <point x="438.5" y="89.0" />
+      <point x="557.25" y="89.0" />
+      <point x="557.25" y="79.0" />
+      <point x="473.0" y="79.0" />
+      <point x="31.25" y="29.0" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.ShapeFactory" target="Patterns.creational.FactoryPattern.naiveExample.Circle" relationship="CREATE">
+      <point x="-53.5" y="-41.5" />
+      <point x="325.25" y="249.0" />
+      <point x="207.5" y="249.0" />
+      <point x="207.5" y="239.0" />
+      <point x="62.5" y="239.0" />
+      <point x="0.0" y="41.5" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.naiveExample.Rectangle" target="Patterns.creational.FactoryPattern.naiveExample.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-41.5" />
+      <point x="359.0" y="89.0" />
+      <point x="214.75" y="89.0" />
+      <point x="214.75" y="79.0" />
+      <point x="410.5" y="79.0" />
+      <point x="-31.25" y="29.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="331.0" y="244.5" />
+  <SelectedNodes>
+    <node>Patterns.creational.FactoryPattern.naiveExample.ShapeFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
