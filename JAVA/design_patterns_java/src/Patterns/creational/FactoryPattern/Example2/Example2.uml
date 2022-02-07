@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Patterns.creational.FactoryPattern.Example2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="108.0">Patterns.creational.FactoryPattern.Example2.CopperCoin</node>
+    <node x="107.5" y="0.0">Patterns.creational.FactoryPattern.Example2.Coin</node>
+    <node x="202.0" y="108.0">Patterns.creational.FactoryPattern.Example2.GoldCoin</node>
+    <node x="0.0" y="463.0">Patterns.creational.FactoryPattern.Example2.App</node>
+    <node x="0.0" y="261.0">Patterns.creational.FactoryPattern.Example2.CoinType</node>
+    <node x="278.0" y="261.0">Patterns.creational.FactoryPattern.Example2.CoinFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Patterns.creational.FactoryPattern.Example2.CopperCoin" target="Patterns.creational.FactoryPattern.Example2.Coin" relationship="REALIZATION">
+      <point x="0.0" y="-54.0" />
+      <point x="91.0" y="83.0" />
+      <point x="192.0" y="83.0" />
+      <point x="0.0" y="29.0" />
+    </edge>
+    <edge source="Patterns.creational.FactoryPattern.Example2.GoldCoin" target="Patterns.creational.FactoryPattern.Example2.Coin" relationship="REALIZATION">
+      <point x="0.0" y="-54.0" />
+      <point x="293.0" y="83.0" />
+      <point x="192.0" y="83.0" />
+      <point x="0.0" y="29.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="242.0" y="273.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
